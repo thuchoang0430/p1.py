@@ -2,9 +2,9 @@ lines = []
 
 while True:
     try:
-        lines.append(input())   # store each line
+        lines.append(input())   
     except:
-        break                  # stop at EOF
+        break                  
 
 for s in lines:
     result = ""
